@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <title>Abby Roberts - Web Developer</title>
+</head>
+<body>
+    <!-- Start Window -->
+    <div class="container" id="loading">
+        <div class="container_title" id="loading_title">
+            <h1 class="container_title_text">Abby Roberts - Web Developer</h1>
+            <div class="xButton" id="loading_title_x">
+                <button class="xButtonClickable" id="loadingX_button">X</button>
+            </div>
+        </div>
+        <span id="loading_text">Loading Portfolio</span>
+        <div id="loading_bar">
+            <div id="loading_innerBar"></div>
+        </div>
+    </div>
+    <!-- Start Window End -->
+
+    <!-- Main Page -->
+    <div class="container" id="mainPage">
+        <!-- Task Bar -->
+        <div id="taskBar">
+            <div id="explore">
+                <button id="exploreButton">Explore</button>
+            </div>
+            <div id="time"></div>
+            <div class="tabs" id="tab1">
+                <button id="tab1Button">About Me - Notepad</button>
+            </div>
+            <div class="tabs" id="tab2">
+                <button id="tab2Button">untitled - Paint</button>
+            </div>
+            <div class="tabs" id="tab3">
+                <button id="tab3Button"></button>
+            </div>
+            <div class="tabs" id="tab4">
+                <button id="tab4Button"></button>
+            </div>
+            <div class="tabs" id="tab5">
+                <button id="tab5Button"></button>
+            </div>
+        </div>
+        <!-- Task Bar End-->
+        <!-- Explore Panel -->
+        <div id="explorepanel">
+            <div class="option" id="option_notepad">
+                <button class="optionButton" id="notepad_button"><u>N</u>otepad</button>
+            </div>
+            <div class="option" id="option_paint">
+                <button class="optionButton" id="paint_button"><u>P</u>aint</button>
+            </div>
+            <div class="option" id="option_projects">
+                <button class="optionButton" id="project_button">P<u>r</u>ojects</button>
+            </div>
+            <div class="option" id="option_mineSweeper">
+                <button class="optionButton" id="mineSweeper_button"><u>M</u>ine Sweeper</button>
+            </div>
+            <div class="option" id="option_contactMe">
+                <button class="optionButton" id="contactMe_button"><u>C</u>ontact Me</button>
+            </div>
+            <div class="option" id="option_settings">
+                <button class="optionButton" id="settings_button"><u>S</u>ettings</button>
+            </div>
+            <div class="option" id="option_shutDown">
+                <button class="optionButton" id="shutDown_button">Sh<u>u</u>t Down..</button>
+            </div>
+        </div>
+        <!-- Explore Panel End -->
+        <!-- About Me Window -->
+        <div class="container" id="notepad">
+            <div class="container_title" id="notepad_title">
+                <h1 class="container_title_text" id="notepad_title_text">About Me - Notepad</h1>
+                <div class="xButton" id="notepad_title_x"><button class="xButtonClickable">X</button></div>
+                <div class="maxButton" id="notepad_title_max"><button class="maxButtonClickable"><div class="maxBDesign"></div></button></div>
+                <div class="minButton" id="notepad_title_min"><button class="minButtonClickable">_</button></div>
+            </div>
+            <span class="options" id="notepad_options"><u>F</u>ile <u>E</u>dit <u>S</u>earch <u>H</u>elp</span>
+            <div id="notepad_whiteSpace">
+                <p>Hi, I'm Abby. Welcome to my little website.
+                    Browse my page to see what I've worked on, and get to know me a little!
+                </p>
+                <div class="scrollVert" id="notepad_scrollWheelVert">
+                    <div class="arrowUpDiv" id="notepad_scroll_arrowTop">
+                        <div class="arrowUp" id="notepad_arrowUp"></div>
+                    </div>
+                    <div class="arrowDownDiv" id="notepad_scroll_arrowBottom">
+                        <div class="ArrowDown" id="notepad_arrowDown"></div>
+                    </div>
+                </div>
+                <div class="scrollHoriz" id="notepad_scrollWheelHoriz">
+                    <div class="arrowLeftDiv" id="notepad_scroll_arrowLeft">
+                        <div class="arrowLeft" id="notepad_arrowLeft"></div>
+                    </div>
+                    <div class="arrowRightDiv" id="notepad_scroll_arrowRight">
+                        <div class="arrowRight" id="notepad_arrowRight"></div>
+                    </div>
+                    <div id="notepad_scroll_middle"></div>
+                </div>
+            </div>
+        </div>
+        <!-- About Me Window End -->
+        <!-- Paint (pic) Window -->
+        <div class="container" id="paint">
+            <div class="container_title" id="paint_title">
+                <h1 class="container_title_text" id="paint_title_text">untitled - Paint</h1>
+                <div class="xButton" id="paint_title_x"><button class="xButtonClickable">X</button></div>
+                <div class="maxButton" id="paint_title_max"><button class="maxButtonClickable"><div class="maxBDesign"></div></button></div>
+                <div class="minButton" id="paint_title_min"><button class="minButtonClickable">_</button></div>
+            </div>
+            <span class="options" id="paint_options"><u>F</u>ile <u>E</u>dit <u>V</u>iew <u>I</u>mage <u>C</u>olors <u>H</u>elp</span>
+            <div id="paint_imageSpace">
+                <img id="picOfMe" draggable="false" src="/images/picOfMe.png">
+                <div class="scrollVert" id="paint_scrollWheelVert">
+                    <div class="arrowUpDiv" id="paint_scroll_arrowTop">
+                        <div class="arrowUp" id="paint_arrowUp"></div>
+                    </div>
+                    <div class="arrowDownDiv" id="paint_scroll_arrowBottom">
+                        <div class="arrowDown" id="paint_arrowDown"></div>
+                    </div>
+                    <div id="paint_scrollBarVert"></div>
+                </div>
+                <div class="scrollHoriz" id="paint_scrollWheelHoriz">
+                    <div class="arrowLeftDiv" id="paint_scroll_arrowLeft">
+                        <div class="arrowLeft" id="paint_arrowLeft"></div>
+                    </div>
+                    <div class="arrowRightDiv" id="paint_scroll_arrowRight">
+                        <div class="arrowRight" id="paint_arrowRight"></div>
+                    </div>
+                    <div id="paint_scrollBarHoriz"></div>
+                    <div class="scrollMiddle" id="paint_scroll_middle"></div>
+                </div>
+            </div>
+            <div id="paint_tools">
+                <div class="paintTool" id="tool1"></div>
+                <div class="paintTool" id="tool2"></div>
+                <div class="paintTool" id="tool3"></div>
+                <div class="paintTool" id="tool4"></div>
+                <div class="paintTool" id="tool5"></div>
+                <div class="paintTool" id="tool6"></div>
+                <div class="paintTool" id="tool7"></div>
+                <div class="paintTool" id="tool8"></div>
+                <div class="paintTool" id="tool9"></div>
+                <div class="paintTool" id="tool10"></div>
+                <div class="paintTool" id="tool11"></div>
+                <div class="paintTool" id="tool12"></div>
+                <div class="paintTool" id="tool13"></div>
+                <div class="paintTool" id="tool14"></div>
+                <div class="paintTool" id="tool15"></div>
+                <div class="paintTool" id="tool16"></div>
+                <div id="emptyPaintArea"></div>
+            </div>
+            <div id="currentPaintColor">
+                <div class="currentColor" id="currentColor1"></div>
+                <div class="currentColor" id="currentColor2"></div>
+            </div>
+            <div id="paint_colors">
+                <div class="paintColor" id="color1"></div>
+                <div class="paintColor" id="color2"></div>
+                <div class="paintColor" id="color3"></div>
+                <div class="paintColor" id="color4"></div>
+                <div class="paintColor" id="color5"></div>
+                <div class="paintColor" id="color6"></div>
+                <div class="paintColor" id="color7"></div>
+                <div class="paintColor" id="color8"></div>
+                <div class="paintColor" id="color9"></div>
+                <div class="paintColor" id="color10"></div>
+                <div class="paintColor" id="color11"></div>
+                <div class="paintColor" id="color12"></div>
+                <div class="paintColor" id="color13"></div>
+                <div class="paintColor" id="color14"></div>
+                <div class="paintColor" id="color15"></div>
+                <div class="paintColor" id="color16"></div>
+                <div class="paintColor" id="color17"></div>
+                <div class="paintColor" id="color18"></div>
+                <div class="paintColor" id="color19"></div>
+                <div class="paintColor" id="color20"></div>
+            </div>
+        </div>
+        <!-- Paint (pic) Window End -->
+        <div class="container" id="minesweeper">
+            <div class="container_title" id="minesweeper_title">
+                <h1 class="container_title_text" id="minesweeper_title_text">Minesweeper</h1>
+                <div class="xButton" id="minesweeper_title_x"><button class="xButtonClickable">X</button></div>
+                <div class="maxButton" id="minesweeper_title_max"><button class="maxButtonClickable"><div class="maxBDesign"></div></button></div>
+                <div class="minButton" id="minesweeper_title_min"><button class="minButtonClickable">_</button></div>
+            </div>
+            <span class="options" id="minesweeper_options"><u>G</u>ame <u>H</u>elp</span>
+            <div id="gameAreaOuter">
+                <div id="gameInfo">
+                    <div class="gameText" id="bombsLeft">
+                        <span data-mine-count></span>
+                    </div>
+                    <div id="smiley"><button id="flagModeButton">:-&#41</button></div>
+                    <div class="gameText" id="timeElapsed"></div>
+                </div>
+                <div id="gameBoard"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Page End -->
+    <script src="/app.js"></script>
+    <script src="/minesweeper.js"></script>
+</body>
+</html>
+
+<!-- Have start screen be windows login screen 
+windows key menu will be navigation menu? opens new pages
+maybe can minimize/close pages, open tabs at bottom
+<script src="/app.js"></script>
+main page opacity = 0
+loading opacity = 1
+-->
